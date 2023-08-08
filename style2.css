@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.box{
+    border: 3px solid black;
+    padding: 20px 20px;
+    background-color: darkgrey;
+}
+
+#main{
+    display: flex;
+    gap: 10px; 
+}
+
+.box h3{
+    border: 3px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 3px;
+    position: relative;
+    left: 380px;
+    top: -22px;
+}
+
+#chicken-box h3{
+    background-color: rgb(241, 131, 131);
+}
+
+#beef-box h3{
+    background-color: red;
+    color: white;
+}
+
+#sushi-box h3{
+    background-color: yellow;
+}
